@@ -1,0 +1,31 @@
+.grid .flipper.flipped {
+  transform: rotateY(180deg);
+  cursor: not-allowed;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front {
+  width: 176px;
+  height: 176px;
+  z-index: 2;
+  transform: rotateY(0deg);
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 0;
+}

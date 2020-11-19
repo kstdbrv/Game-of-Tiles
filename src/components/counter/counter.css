@@ -1,0 +1,10 @@
+.counter {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.counter h2 {
+  margin-bottom: 20px;
+  color: #202020;
+}
