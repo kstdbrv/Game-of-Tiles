@@ -2,11 +2,6 @@
   background-color: #1e88e5;
 }
 
-.header p {
-  font-size: 25px;
-  color: #fff;
-}
-
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -16,7 +11,6 @@
 
 .header__link {
   background-color: #46b980;
-  color: #fff;
   transition: background-color .2s;
   display: inline-block;
   padding: .6em 1em;

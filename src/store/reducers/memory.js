@@ -15,8 +15,9 @@ const memory = (state = initialState, action) => {
       case FLIP_CARD:
 
           let newState = { round : state.round + 1 };
-
-          if(state.round % 2 == 1) {
+                  // четный раунд (открыты две карты)
+          if (state.round % 2 == 1) {
+              
               let cardClicked = state.cards.find((card) => {
                   return card.id === action.id;
               });
@@ -30,11 +31,11 @@ const memory = (state = initialState, action) => {
                       Object.assign({}, card, { flipped : false })
                   })
               })
-          } else {
+          } else {  // нечетный раунд (открыта одна карта)
               let cardClicked = state.cards.find((card) => {
                   return card.id === action.id;
               });
-
+                    // если карточки совпали
               if(cardClicked.rel === state.guess1) {
                   Object.assign(newState, {
                       guess1 : state.guess1,
@@ -45,7 +46,7 @@ const memory = (state = initialState, action) => {
                           card
                       })
                   })
-              } else {
+              } else { // если карточки не совпали
                   Object.assign(newState, {
                       guess1 : state.guess1,
                       guess2 : cardClicked.rel,

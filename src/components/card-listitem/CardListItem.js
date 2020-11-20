@@ -6,7 +6,7 @@ import { setFlipCard } from '../../store/actions/quiz'
 
 const CardListItem = ({ card }) => {
     
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   let cardClass = classNames({
     'grid__item' : true,
@@ -16,7 +16,11 @@ const CardListItem = ({ card }) => {
 
   return (
       <div className={cardClass}>
-        <div className="front" onClick={() => dispatch(setFlipCard(card.id))}></div>
+        <div
+          className="front"
+          onClick={() => dispatch(setFlipCard(card.id))}
+        >
+        </div>
         <div className="back">
           <img src={card.url} />
         </div>

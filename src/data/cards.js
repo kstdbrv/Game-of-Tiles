@@ -3,7 +3,7 @@ export default function generateCards() {
 
   for (let i = 0; i < 16; i+=2) {
       let index = Math.floor(Math.random() * 1000);
-
+         // используем id и rel для выбора совпадения
       cards.push({
           id : i,
           rel : i+1,

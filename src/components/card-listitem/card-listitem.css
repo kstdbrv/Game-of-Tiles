@@ -1,12 +1,20 @@
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
 .grid .flipper.flipped {
   transform: rotateY(180deg);
   cursor: not-allowed;
 }
 
-.flipper {
-  transition: 0.6s;
-  transform-style: preserve-3d;
-  position: relative;
+.front, .back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 0;
 }
 
 .front {
@@ -22,10 +30,3 @@
   transform: rotateY(180deg);
 }
 
-.front, .back {
-  backface-visibility: hidden;
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 0;
-}

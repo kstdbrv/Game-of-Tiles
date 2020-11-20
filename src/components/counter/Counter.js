@@ -6,8 +6,8 @@ import './counter.css'
 
 const Counter = () => {
 
-  const { round } = useSelector(state => state.memory)
-  const dispatch = useDispatch()
+  const { round } = useSelector(state => state.memory);
+  const dispatch = useDispatch();
 
   return (
     <div className="counter">

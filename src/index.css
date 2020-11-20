@@ -2,11 +2,17 @@ body {
   font-family: 'Rubik-Regular', sans-serif;
   font-weight: 400;
   font-size: 25px;
-  color: #0F0F0F;
+  color: #fff;
   width: 100%;
   overflow-x: hidden;
   min-width: 320px;
   background-color: #e3f2fd;
+}
+
+.wrapper {
+  max-width: 995px;
+  padding: 0 20px; 
+  margin: 0 auto;
 }
 
 *,
@@ -39,12 +45,6 @@ li {
   margin: 0;
   padding: 0;
   list-style-type: none;
-}
-
-.wrapper {
-  max-width: 995px;
-  padding: 0 20px; 
-  margin: 0 auto;
 }
 
 
