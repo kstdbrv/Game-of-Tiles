@@ -2,8 +2,8 @@
 
 
 <h2 align="center">GO visit https://codesandbox.io/s/practical-satoshi-j0r2t?file=/src/data/cards.js<h2>
-
-## to try ot out!
+<h3 align="right">to try ot out!<h3>
+ 
 
 # Test task for front-end developer vacancy
 
