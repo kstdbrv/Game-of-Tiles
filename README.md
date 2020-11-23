@@ -1,6 +1,5 @@
 # Board of Tiles: A game based on react & redux
-## GO visit
-## https://codesandbox.io/s/practical-satoshi-j0r2t?file=/src/data/cards.js
+## GO visit https://codesandbox.io/s/practical-satoshi-j0r2t?file=/src/data/cards.js
  ## to try ot out!
 # Test task for front-end developer vacancy
 
