@@ -1,10 +1,8 @@
 <h1 align="center">Board of Tiles: A game based on react & redux</h1>
 
+<h2 align="center">GO visit https://codesandbox.io/s/practical-satoshi-j0r2t?file=/src/data/cards.js<br/> to try ot out!<h2>
 
-<h2 align="center">GO visit https://codesandbox.io/s/practical-satoshi-j0r2t?file=/src/data/cards.js<h2>
-<h3 align="right">to try ot out!<h3>
  
-
 # Test task for front-end developer vacancy
 
  ## Description: 
